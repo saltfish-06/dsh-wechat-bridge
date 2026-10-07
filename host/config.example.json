@@ -1,0 +1,20 @@
+{
+  "_说明": "复制成 config.json 再改。改完要重启桥接。",
+
+  "allow": ["filehelper"],
+  "_allow说明": "允许机器人回复的微信联系人 wxid 白名单。怎么拿 wxid：让对方给你发一条消息，然后看桥接日志里『收到（不在白名单，忽略）[昵称 / wxid_xxx]』那一行。filehelper 是文件传输助手，自己跟自己测试用。留空数组 = 谁都不回。",
+
+  "adapter_url": "http://127.0.0.1:8765",
+  "adapter_token": "",
+  "_adapter_token说明": "虚拟机的适配器配了令牌就必须填一样的值，否则会 401。没配就留空。",
+
+  "poll_interval": 0.5,
+
+  "dsh_exe": "C:\\Program Files\\DeepSeek Harness\\DeepSeek Harness.exe",
+  "dsh_bin": "C:\\Program Files\\DeepSeek Harness\\resources\\app.asar\\dsh\\node_modules\\@deepseek-ai\\dsh\\lib\\bin.js",
+  "dsh_profile": "headless",
+  "dsh_patch": "",
+
+  "dsh_timeout": 240,
+  "split_replies": true
+}
